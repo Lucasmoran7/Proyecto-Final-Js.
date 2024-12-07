@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>Simulador de Biblioteca Virtual</h1>
-    <p>Este programa permite gestionar libros: agregar, buscar y mostrar la colección.</p>
+    <h1>Biblioteca Virtual</h1>
+    <p>Bienvenido a tu biblioteca virtual, puedes agregar, buscar y consultar libros.</p>
+
+    <!-- Formulario para buscar libros -->
+    <input type="text" id="buscarTitulo" placeholder="Buscar libro por título" />
+    <button onclick="buscarLibro()">Buscar</button>
+
+    <!-- Lista de libros -->
+    <ul id="listaLibros"></ul>
+
+    <!-- Botón para agregar libro -->
+    <button onclick="agregarLibro()">Agregar un libro</button>
+
     <script src="index.js"></script>
 </body>
 </html>
