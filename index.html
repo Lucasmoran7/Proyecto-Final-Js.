@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Virtual</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 <body>
     <h1>Biblioteca Virtual</h1>
@@ -14,14 +13,16 @@
 
     <!-- Formulario para buscar libros -->
     <input type="text" id="buscarTitulo" placeholder="Buscar libro por título" />
-    <button onclick="buscarLibro()">Buscar</button>
+    <button id="btnBuscar">Buscar</button>
 
     <!-- Lista de libros -->
     <ul id="listaLibros"></ul>
 
     <!-- Botón para agregar libro -->
-    <button onclick="agregarLibro()">Agregar un libro</button>
+    <button id="btnAgregar">Agregar un libro</button>
 
-    <script src="index.js"></script>
+    <script src="js/biblioteca.js" type="module"></script>
+    <script src="js/dom.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

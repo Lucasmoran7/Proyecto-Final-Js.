@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "anio": "1967",
+        "imagen": "img/cien-anos-de-soledad.jpg"
+    },
+    {
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "anio": "1949",
+        "imagen": "img/1984.jpg"
+    },
+    {
+        "titulo": "Matar a un ruiseñor",
+        "autor": "Harper Lee",
+        "anio": "1960",
+        "imagen": "img/matar-a-un-ruisenor.jpg"
+    },
+    {
+        "titulo": "El gran Gatsby",
+        "autor": "F. Scott Fitzgerald",
+        "anio": "1925",
+        "imagen": "img/great-gatsby.jpg"
+    }
+]
